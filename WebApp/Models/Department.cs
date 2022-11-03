@@ -12,5 +12,15 @@ namespace WebApp.Models
         [Required]
         public int DivisionId { get; set; }
         public Division Division { get; set; }
+        public Department(int id, string name, int divisionId)
+        {
+            Id = id;
+            Name = name;
+            DivisionId = divisionId;    
+        }
+        public Department()
+        {
+
+        }
     }
 }

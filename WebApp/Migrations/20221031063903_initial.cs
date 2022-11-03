@@ -105,6 +105,7 @@ namespace WebApp.Migrations
                 table: "Users",
                 column: "RoleId");
         }
+
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
