@@ -12,11 +12,11 @@ namespace WebApp.Controllers
         {
             this.myContext = myContext;
         }
-
         public IActionResult Login()
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Login(string email, string password)
         {
@@ -48,6 +48,7 @@ namespace WebApp.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Register(string fullName, string email, DateTime birthDate, string password)
         {

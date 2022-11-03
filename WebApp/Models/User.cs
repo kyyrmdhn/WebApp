@@ -19,7 +19,6 @@ namespace WebApp.Models
         public virtual Role Role { get; set; }
         public User()
         {
-
         }
     }
 }

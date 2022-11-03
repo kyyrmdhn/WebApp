@@ -16,7 +16,6 @@ namespace WebApp.Models
         //public User User { get; set; }
         public Employee()
         {
-
         }
     }
 }

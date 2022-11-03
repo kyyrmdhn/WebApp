@@ -13,13 +13,5 @@ namespace WebApp.Models
             Id = id;
             Name = name;
         }
-        public Division(int id)
-        {
-            Id = id;
-        }
-        public Division()
-        {
-
-        }
     }
 }

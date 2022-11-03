@@ -12,12 +12,10 @@ namespace WebApp.Controllers
         {
             _logger = logger;
         }
-
         public IActionResult Index(ResponseLogin responseLogin)
         {
             return View(responseLogin);
         }
-
         public IActionResult Privacy()
         {
             return View();

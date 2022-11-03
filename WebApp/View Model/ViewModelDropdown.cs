@@ -8,5 +8,6 @@ namespace WebApp.Models
         public string Name { get; set; }
         public int DivisionId { get; set; }
         public List<SelectListItem> Divisions { get; set; }
+
     }
 }

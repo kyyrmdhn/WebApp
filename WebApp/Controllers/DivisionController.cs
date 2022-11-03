@@ -41,13 +41,13 @@ namespace WebApp.Controllers
             }
             return View();
         }
+
         //UPDATE - GET POST
         public IActionResult Edit(int id)
         {
             var data = myContext.Divisions.Find(id);
             return View(data);
         }
-
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Edit(int id, Division division)

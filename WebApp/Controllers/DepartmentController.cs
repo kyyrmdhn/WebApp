@@ -12,7 +12,6 @@ namespace WebApp.Controllers
         {
             this.myContext = myContext;
         }
-
         public IActionResult Index()
         {
             var data = myContext.Departments.ToList();
